@@ -1,1 +1,1 @@
-[Go to Home Page](index.html)
+[Go to Home Page](templates/index.html)
