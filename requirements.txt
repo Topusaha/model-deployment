@@ -1,0 +1,8 @@
+click 
+Flask 
+itsdangerous
+Jinja2 
+MarkupSafe 
+setuptools==68.0.0
+Werkzeug 
+wheel==0.41.2
