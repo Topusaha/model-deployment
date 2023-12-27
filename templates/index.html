@@ -8,10 +8,11 @@
 </head>
 <body>
     <h1>Email Spam Classifer</h1>
-    <form method="post" action="/"> 
-        <textarea name="Email-Content" placeholder="Enter Your Email" rows="15" cols="60"></textarea>
+    <form method="post" action="/predict"> 
+        <textarea name="Email-Content" placeholder="Enter Your Email" rows="15" cols="60">{{text}}</textarea>
         <button name="Submit">Check Spam</button>
+        <a href="/">Reset</a>
     </form>
-    <h2>{{ text }}</h2>
+    <h2>{{ predictions }}</h2>
 </body>
 </html>
